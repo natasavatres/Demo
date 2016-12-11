@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class DemoLista {
-	LinkedList<Student> listaStudenata=new LinkedList<Student>();
+	public LinkedList<Student> listaStudenata=new LinkedList<Student>();
 	public void napraviListu(Student s){
 		if(s==null){
 			System.out.println("Nema studenta.");

@@ -4,6 +4,13 @@ public class Student {
 	private String prezime;
 	private int godinaUpisa;
 	private String brIndeksa;
+	public Student(String ime, String prezime, int godinaUpisa, String brIndeksa) {
+		super();
+		this.ime = ime;
+		this.prezime = prezime;
+		this.godinaUpisa = godinaUpisa;
+		this.brIndeksa = brIndeksa;
+	}
 	public String getIme() {
 		return ime;
 	}
